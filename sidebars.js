@@ -11,15 +11,15 @@ module.exports = {
       type: 'category',
       label: 'Creating a Tactyc',
       items: [
-        'create/tactyc-from-excel',
-        'create/configuration-tab',
+        'tactyc-from-excel',
+        'configuration-tab',
       ],
     },
     {
       type: 'category',
       label: 'Working with a Tactyc',
       items: [
-        'work/live-dashboard'
+        'live-dashboard'
       ],
     },
   ],
