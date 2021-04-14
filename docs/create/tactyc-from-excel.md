@@ -1,0 +1,89 @@
+---
+title: Creating a Tactyc from Excel
+---
+
+**Note: Please make sure you are using Chrome or Safari on a desktop or laptop browser when using Tactyc.** 
+
+Please also make sure you have reviewed the model guidelines specified [here](https://www.notion.so/What-models-are-suitable-for-Tactyc-8a554167e4d34d6ca9faafbbe3c59c28)
+
+
+<iframe width="675" height="380" src="https://tactyc-assets.s3-us-west-1.amazonaws.com/createVideo.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+**A Tactyc dashboard is an interactive dashboard with inputs and outputs from your model. You can flex your inputs to see changes to your model outputs from the browser. It's important to understand what is an input and output before proceeding further.**
+
+### What is an Output?
+
+Outputs are metrics from your model that you want to track as inputs or assumptions are changed. For. e.g. in a valuation model these could be Share Price or Enterprise Value - or for an operating model, these could Revenue or EBITDA. These are typically ***calculated cells*.**
+
+Each output is assigned a **category** (for e.g. Revenue or EBITDA), and if a category has multiple cells, each cell is also assigned a **label** (for e.g. Year 1, Year 2). All cells within the same category should have the same *units*. For example. all cells under a Net Profit category would be in some currency units.
+
+**Outputs are shown in  charts in the center of the Live Dashboard**
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e2464f9-6fde-4db2-9c77-9c65a6c90822/Screen_Shot_2021-02-09_at_5.05.54_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e2464f9-6fde-4db2-9c77-9c65a6c90822/Screen_Shot_2021-02-09_at_5.05.54_PM.png)
+
+### What is an Input?
+
+Inputs are typically ***hard-codes that are assumptions*** underlying a model. Tactyc will sensitize the input cell over a range to compute the entire solution space of outputs
+
+Inputs are shown in a slider panel on the right of the Live Dashboard
+
+# Step 1:  **Upload the Excel file**
+
+- Once logged into Tactyc, click on **New Tactyc**
+- In the dialog that pops up, give your dashboard a name
+- Click on **Upload Excel Model** and navigate to the file directory on your computer to select the Excel file.  Click **OK** once the file is selected.
+
+    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3958d8d5-cf20-47ee-b864-d95c8dc2e78b/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3958d8d5-cf20-47ee-b864-d95c8dc2e78b/Untitled.png)
+
+    - Ensure your Excel file meets Tactyc's specifications (click to expand)
+- Tactyc will now start processing your file and open your file in your browser
+
+# Step 2: Input / Output Selection Methods
+
+The next step is to select inputs and outputs for Tactyc. There are 2 options: 
+
+- **Option A:** [Select the inputs and outputs from the browser view of your spreadsheet](https://www.notion.so/How-to-create-a-Tactyc-dashboard-from-an-Excel-model-ca5a78f5124746b5a74a4e8d2025ca90)
+- **Option B:** [Include a Tactyc Configuration tab in your Excel model](https://www.notion.so/How-to-create-a-Tactyc-dashboard-from-an-Excel-model-ca5a78f5124746b5a74a4e8d2025ca90)  (recommended)
+
+We recommend the second option as it is repeatable in case you make future changes to your model and will save you from having to reselect inputs/outputs if you make large changes to your model in the future
+
+### Option A: Select inputs / outputs in browser
+
+- Click on the sheet in the browser to select your output cells.
+- Give these selected outputs a **Category Name** and click **OK**
+- If your output had multiple cells, you will now be asked to assign **Labels** for these cells. Labels can be either **typed directly** into the Text Field for each cell, or if your spreadsheet already has text cells that are suitable labels, you can just **click those text cells.** Click **OK** to continue
+- Repeat the above steps for all your output categories. To save you time on categories that have the same labels, make sure to use the **Copy Prior Labels** option.
+- Once all your outputs have been defined, click on **Go to Inputs**
+
+### **Select Inputs**
+
+- Click on the input cell in your sheet and give your input a name
+- **Customize Input Range (if needed):** By default, Tactyc will calculate **5 steps** for each input between a lower bound (90% of the current value) and upper bound (110% of the current value in the model). Both the bounds and numbers of steps can be customized as per your requirements
+- Repeat the above steps until all your required inputs have been defined. Tactyc allows a maximum of 6 inputs per dashboard.
+- Click **Calculate Dashboard.** Tactyc will now start calculating the entire solution space. You will be automatically taken to your home screen while the model is being computed. Depending on the number of inputs, number of steps, your model's logic etc. this process could take up to a few minutes. Once completed, the Tactyc status will change from **Loading** to **Completed.**
+- That's it! Click on **Completed** to open your Tactyc dashboard. Congrats on creating your first Tactyc!
+
+### Option B:  Tactyc Configuration Tab
+
+The Tactyc configuration tab is a worksheet that you can include in your model to make input/output selection easier. This worksheet is a "form" that you will fill in to define your inputs and outputs. When this form is completed, you can simply upload your model, and check the **This model has a Tactyc configuration tab** option. Tactyc will automatically read this tab and be able to calculate and create your dashboard from here on.
+
+See a sample configuration tab here: 
+
+[S&P500ValueNov1_TACTYC_v3.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3101e450-4f08-4660-9002-c74ff6c4f53f/SP500ValueNov1_TACTYC_v3.xlsx)
+
+- **Step 1:** Download the Tactyc configuration tab ****and make sure to include it in your model (you can copy this tab into your Excel file). It may be easier to start off with the sample above so you can see how the *TACTYC* config tab was populated for that model as an example.
+
+    [Tactyc Config Tab v5.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/305d6629-db17-4f68-a1d7-b0610ed4d97d/Tactyc_Config_Tab_v5.xlsx)
+
+- **Step 2:**  Fill the information in the tab for inputs and outputs. You'll be defining names for each and linking to cells in your model. Instructions for filling this form are included in the file [(see an example of a filled out Tactyc Configuration Tab here)](https://tactyc-assets.s3-us-west-1.amazonaws.com/AppleAug20_config.xlsx)
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/35fea4d4-e75b-447f-8364-9e197766b6bc/configtab.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/35fea4d4-e75b-447f-8364-9e197766b6bc/configtab.png)
+
+- **Step 3:**  You're set! Upload your model and make sure you click the **This model has a Tactyc configuration tab** option while uploading
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71f111ae-4ed2-411d-b703-1301c02be2c9/Tactyc_10-7-2020_5-23-51_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71f111ae-4ed2-411d-b703-1301c02be2c9/Tactyc_10-7-2020_5-23-51_PM.png)
+
+- Once uploaded, Tactyc will start analyzing the model. You will be automatically taken to your home screen while the model is being computed. Depending on the number of inputs, number of steps, your model's logic etc. this process could take up to a few minutes
+
+    Once completed, the Tactyc status will change from **Analyzing** to **Completed.** That's it! Click on **Open** to open your Tactyc dashboard. Congrats on creating your first Tactyc!
