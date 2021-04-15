@@ -18,11 +18,16 @@ The sensitivity analysis page is divided into 3 modules:
 
 - Click **Run Sensitivity**
 - The resulting report has 3 modules.
-    - **Module 1** shows a summary as both *Input 1* and *Input 2* are flexed. Users may be familiar with the table output as it is similar to a traditional data table from Excel.
-    - You will be asked to confirm the output variable that Module 3 should focus on
-    - Once selected, the table output and line chart will automatically update
+  
+## Module 1
 
-    ![Sensitivity](https://du0bb4gb9kg21.cloudfront.net/documentation/sensitivity-analysis/sensitivity.png)
+  - **Module 1** shows a summary as both *Input 1* and *Input 2* are flexed. Users may be familiar with the table output as it is similar to a traditional data table from Excel.
+  - You will be asked to confirm the output variable that Module 3 should focus on
+  - Once selected, the table output and line chart will automatically update
+
+  ![Sensitivity](https://du0bb4gb9kg21.cloudfront.net/documentation/sensitivity-analysis/sensitivity.png)
+
+## Module 2
 
 - **Module 2** will show output values flexed for *Input 1*:
     - **Sensitivity Analysis Line Chart** at the top that shows how a given output value varies as ****Input 1 is flexed
@@ -36,6 +41,8 @@ Sensitivity Analysis Line Chart showing output values as one input is flexed
 ![Sensitivity Table](https://du0bb4gb9kg21.cloudfront.net/documentation/sensitivity-analysis/table.png)
 
 Analysis at Various Input Values
+
+## Module 3
 
 - **Module 3** is the same as Module 2, except flexed for *Input 2*
 

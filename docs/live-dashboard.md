@@ -6,13 +6,13 @@ title: Live Dashboard
 
 [Live dashboard](https://du0bb4gb9kg21.cloudfront.net/documentation/live-dashboard/splash6.mp4)
 
-**Input Sliders**
+## Input Sliders
 
 Input sliders allow you to control the model by sliding the the input range. 
 
 ![Input sliders](https://du0bb4gb9kg21.cloudfront.net/documentation/live-dashboard/chrome-capture.gif)
 
-**Cases**
+## Cases
 
 A combination of slider values can be saved into cases such as Low, Base, High etc. Each saved case can be activated by selecting it from from the **Case Drop Down** at the top of the slider panel
 
@@ -23,7 +23,7 @@ A combination of slider values can be saved into cases such as Low, Base, High e
 
 ![Cases](https://du0bb4gb9kg21.cloudfront.net/documentation/live-dashboard/cases.png)
 
-**Chart Builder**
+## Chart Builder
 
 Clicking on the settings  ****icon on the top right of each output chart will grant access to the **Chart Builder** features for that output. 
 
@@ -39,13 +39,13 @@ Chart Builder enables you to customize the output chart and style. Aspects that 
 
 ![Chart Builder](https://du0bb4gb9kg21.cloudfront.net/documentation/live-dashboard/chart-builder.png)
 
-**Explore More**
+## Explore More
 
 Clicking on the **Explore More** button will open up a series of secondary analysis that provides further intelligence. This is a summary of input contribution for a given output - each percentage corresponds to the given inputs contribution to the variance of the selected output variable
 
 ![Explore](https://du0bb4gb9kg21.cloudfront.net/documentation/live-dashboard/explore.png)
 
-**Notes**
+## Notes
 
 You can add notes or call-outs to any of the Output Charts so anyone you share the Tactyc with can view your notes for that chart.
 

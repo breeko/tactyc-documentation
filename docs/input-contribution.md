@@ -22,13 +22,19 @@ First, set an output variable to analyze from the drop down at the top of the pa
 
 ![Output](https://du0bb4gb9kg21.cloudfront.net/documentation/input-contribution/output.png)
 
+### Module 1
+
 **Module 1** summarizes the results of Step 5 above are summarized up front as follows. This is the relative ranking of all inputs based on their contribution % to the selected output value's variance
 
 ![Sensitivity](https://du0bb4gb9kg21.cloudfront.net/documentation/input-contribution/sensitivity.png)
 
+### Module 2
+
 **Module 2** summarizes the results of Step 4 above i.e. the impact on output value for a **1%** **increase in input values**. Tactyc will also present inputs based on whether they are **positively or negatively correlated** with the selected output variable
 
 ![Chart 1](https://du0bb4gb9kg21.cloudfront.net/documentation/input-contribution/chart.png)
+
+### Module 3
 
 Finally **Module 3** summarizes the result from **Step 3 above** i.e. the average % change in output values as each input value is changed. Tactyc will try to identify and summarize the trends in the output variable as input values are stepped through over their defined range to find inflection points or peaks and troughs.
 

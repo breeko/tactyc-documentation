@@ -2,7 +2,9 @@
 title: Publishing a Tactyc
 ---
 
+
 **Publishing allows you to share your Tactycs and analysis with anyone on the web. Its an exciting way for users to share their models with the world!**
+## Publishing
 
 To publish your Tactyc, **Launch** your Tactyc and then click on **Publish Tactyc**
 

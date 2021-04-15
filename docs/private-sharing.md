@@ -4,6 +4,8 @@ title: Private Sharing
 
 **Tactycs are meant to be shared with your team members. Private sharing allows your Tactyc and underlying model to be shared in a secured manner with your intended recipients**
 
+## Sharing
+
 To private share your Tactyc, Launch the Tactyc you would like to share, then click on **Share** from the sidebar. This will open up the following **Send Dialog**
 
 ![Private Sharing](https://du0bb4gb9kg21.cloudfront.net/documentation/private-sharing/sharing.png)

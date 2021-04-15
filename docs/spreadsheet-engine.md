@@ -22,9 +22,9 @@ The Tactyc Spreadsheet Engine is a proprietary algorithm that enables complex mo
 - Automated user warnings for formulas that are unstable or prone to errors
 - Convert spreadsheet formulas and values to JSON format
 
-# **Build with Tactyc**
+## Build with Tactyc
 
-### **API access to the Tactyc Spreadsheet Engine enables anyone to create custom apps powered by spreadsheets**
+**API access to the Tactyc Spreadsheet Engine enables anyone to create custom apps powered by spreadsheets**
 
 ![API](https://du0bb4gb9kg21.cloudfront.net/documentation/spreadsheet-engine/api.png)
 
@@ -41,7 +41,7 @@ The Tactyc Spreadsheet Engine is a proprietary algorithm that enables complex mo
 - **Programmatic Access:** Create, manage and share thousands of models with Tactyc visualizations in minutes
 - **No-code apps powered by spreadsheets:** API gives you the power to create your own applications that are simply powered by spreadsheets and without a single line of code
 
-# **API Features Highlights**
+## **API Features Highlights**
 
 ![API Features](https://du0bb4gb9kg21.cloudfront.net/documentation/spreadsheet-engine/api-features.png)
 
@@ -54,9 +54,9 @@ The Tactyc Spreadsheet Engine is a proprietary algorithm that enables complex mo
 
 [Please refer to our API documentation for further details](/api)
 
-# **Flexible Hosting Solutions**
+## Flexible Hosting Solutions
 
-### **Clients can use Tactyc's secure cloud for workbook computation or leverage our easy on-premise deployment solution to run the Tactyc Spreadsheet Engine within their firewalls**
+**Clients can use Tactyc's secure cloud for workbook computation or leverage our easy on-premise deployment solution to run the Tactyc Spreadsheet Engine within their firewalls**
 
 **Use the Tactyc Cloud:**
 
@@ -76,7 +76,7 @@ The Tactyc Spreadsheet Engine is a proprietary algorithm that enables complex mo
     - Authentication server (Tactyc cloud used [auth0.com](https://auth0.com))
 - For further details, please reach out at sales@tactyc.io to get detailed specifications
 
-# FAQs
+## FAQs
 
 **What is the Tactyc Calculation Engine?**
 

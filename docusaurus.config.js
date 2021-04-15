@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Tactyc',
+  title: 'Tactyc Support Center',
   tagline: 'No-code platform to turn spreadsheets into web apps',
   url: 'https://tactycHQ.github.io',
   baseUrl: '/',
@@ -11,7 +11,7 @@ module.exports = {
   projectName: 'tactycHQ.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Tactyc',
+      title: 'Tactyc Support Center',
       logo: {
         alt: 'Tactyc Logo',
         src: 'img/tactyc_icon.png',
