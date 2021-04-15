@@ -27,7 +27,7 @@ Can't find what you're looking for? Send our support team a note at [admin@tacty
 
 [Input Contribution](input-contribution)
 
-[Monte Carlo Analysis](monte-carlo-analysis)
+[Monte Carlo Analysis](monte-carlo)
 
 ## Tactyc Spreadsheet Engine and API
 
