@@ -8,12 +8,12 @@ title: Tactyc Spreadsheet Engine
 
 The Tactyc Spreadsheet Engine is a proprietary algorithm that enables complex models to be computed and managed on the cloud. Tactyc follows a similar methodology to Excel's calculation engine to compute cells. Each workbook is parsed and a resulting dependency graph is built for each cell. Every cell value change is then referred back to the dependency graph to query for updated cells. The formula in each cell is then computed to arrive at a final value for each cell. The computation algorithm is highly dependent on the types of formulas in the workbook and Tactyc employs a range of optimization processes in each step to reduce calculation times and enable fast computations.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f9625e5c-a9cb-4268-920e-5a8b6a8b934c/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f9625e5c-a9cb-4268-920e-5a8b6a8b934c/Untitled.png)
+![Diagram](https://du0bb4gb9kg21.cloudfront.net/documentation/spreadsheet-engine/diagram.png)
 
 **Key Features**
 
 - High-performance calculation engine with minimum dependencies
-- [Built-in library of 300+ functions (and growing)](https://www.notion.so/Supported-Formulas-and-Functions-6e16227fd13e4fa6a2085fce3435af8d)
+- [Built-in library of 300+ functions (and growing)](supported-functions)
 - Volatile function support (e.g. OFFSET or INDIRECT)
 - Iterative and circular models
 - Absolute and relative dependencies
@@ -26,7 +26,7 @@ The Tactyc Spreadsheet Engine is a proprietary algorithm that enables complex mo
 
 ### **API access to the Tactyc Spreadsheet Engine enables anyone to create custom apps powered by spreadsheets**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6096bfb1-df59-4b3b-97d5-cafe724d6c17/Screenshot_(89).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6096bfb1-df59-4b3b-97d5-cafe724d6c17/Screenshot_(89).png)
+![API](https://du0bb4gb9kg21.cloudfront.net/documentation/spreadsheet-engine/api.png)
 
 **API engine enables users to:**
 
@@ -43,7 +43,7 @@ The Tactyc Spreadsheet Engine is a proprietary algorithm that enables complex mo
 
 # **API Features Highlights**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/796e6591-8d57-4061-86f6-6dfaf893da3e/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/796e6591-8d57-4061-86f6-6dfaf893da3e/Untitled.png)
+![API Features](https://du0bb4gb9kg21.cloudfront.net/documentation/spreadsheet-engine/api-features.png)
 
 - **Access:** View and manage all models and associated dashboards
 - **Create:** Upload a workbook to create a dashboard in seconds
@@ -52,7 +52,7 @@ The Tactyc Spreadsheet Engine is a proprietary algorithm that enables complex mo
 - **Solve:** Run multi-variate goal seek to solve for model assumptions for a specific target output goal
 - **Work outside the dashboard context:** Upload, calculate, manage and other endpoints that provide computation services on spreadsheets without the creation of a dashboard
 
-[Please refer to our API documentation for further details](https://tactyc.io/api)
+[Please refer to our API documentation for further details](/api)
 
 # **Flexible Hosting Solutions**
 

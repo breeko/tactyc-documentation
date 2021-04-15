@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'Your Excel models on a web app',
-    imageUrl: 'img/excel.svg',
+    imageUrl: 'img/xlsx_icon.svg',
     description: (
       <>
         Tactyc allows you to turn any Excel model into an <strong>interactive web app</strong> or through an <strong>API</strong>
@@ -72,7 +72,7 @@ export default function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Get Started
+              Documentation
             </Link>
             &nbsp;&nbsp;
             <Link

@@ -15,11 +15,11 @@ A Monte Carlo analysis simply summarizes the resulting probability distribution 
 
 **Probability Density Function and Histogram summarizing the results of each output**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/36d88818-d9c3-4095-95d5-5058ddeb06a6/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/36d88818-d9c3-4095-95d5-5058ddeb06a6/Untitled.png)
+![Monte Carlo](https://du0bb4gb9kg21.cloudfront.net/documentation/monte-carlo/mc.png)
 
 **Key Metrics Summarizing Probabilities of Cases and Distribution Metrics**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/abd0f921-631a-4aa7-888a-cb8e13a537c0/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/abd0f921-631a-4aa7-888a-cb8e13a537c0/Untitled.png)
+![Configuration](https://du0bb4gb9kg21.cloudfront.net/documentation/monte-carlo/config.png)
 
 ## Custom Monte Carlo Simulation
 
@@ -38,7 +38,7 @@ Users can customize this Monte Carlo simulation to run their own simulations by 
 
 - Open the Monte Carlo configuration panel by clicking on **Monte Carlo Parameters**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4627c39f-a255-48b7-8903-d22c2b3a2d77/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4627c39f-a255-48b7-8903-d22c2b3a2d77/Untitled.png)
+![Metrics](https://du0bb4gb9kg21.cloudfront.net/documentation/monte-carlo/metrics.png)
 
 - Tactyc then iterations, probability distribution types and associated paramters for each input
 - Click **Run** to begin the simulation

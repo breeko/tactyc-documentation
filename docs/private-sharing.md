@@ -6,7 +6,7 @@ title: Private Sharing
 
 To private share your Tactyc, Launch the Tactyc you would like to share, then click on **Share** from the sidebar. This will open up the following **Send Dialog**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9595399d-8ed6-4438-bddf-c9a911df2524/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9595399d-8ed6-4438-bddf-c9a911df2524/Untitled.png)
+![Private Sharing](https://du0bb4gb9kg21.cloudfront.net/documentation/private-sharing/sharing.png)
 
 - **Email**: The email address of a single recipient you want to share this Tactyc with
 - **Custom Message for Recipient**: Any custom message you want to include in the email that that the recipient will recieve

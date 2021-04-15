@@ -25,7 +25,7 @@ module.exports = {
         'live-dashboard',
         'sensitivity-analysis',
         'input-contribution',
-        'monte-carlo-analysis',
+        'monte-carlo',
       ],
     },
     {

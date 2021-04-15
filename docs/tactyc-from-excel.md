@@ -4,7 +4,7 @@ title: Creating a Tactyc from Excel
 
 **Note: Please make sure you are using Chrome or Safari on a desktop or laptop browser when using Tactyc.** 
 
-Please also make sure you have reviewed the model guidelines specified [here](https://www.notion.so/What-models-are-suitable-for-Tactyc-8a554167e4d34d6ca9faafbbe3c59c28)
+Please also make sure you have reviewed the model guidelines specified [here](suitable-models)
 
 
 <iframe width="675" height="380" src="https://tactyc-assets.s3-us-west-1.amazonaws.com/createVideo.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -43,8 +43,8 @@ Inputs are shown in a slider panel on the right of the Live Dashboard
 
 The next step is to select inputs and outputs for Tactyc. There are 2 options: 
 
-- **Option A:** [Select the inputs and outputs from the browser view of your spreadsheet](https://www.notion.so/How-to-create-a-Tactyc-dashboard-from-an-Excel-model-ca5a78f5124746b5a74a4e8d2025ca90)
-- **Option B:** [Include a Tactyc Configuration tab in your Excel model](https://www.notion.so/How-to-create-a-Tactyc-dashboard-from-an-Excel-model-ca5a78f5124746b5a74a4e8d2025ca90)  (recommended)
+- **Option A:** [Select the inputs and outputs from the browser view of your spreadsheet](tactyc-from-excel#option-a-select-inputs--outputs-in-browser)
+- **Option B:** [Include a Tactyc Configuration tab in your Excel model](tactyc-from-excel#option-b--tactyc-configuration-tab)  (recommended)
 
 We recommend the second option as it is repeatable in case you make future changes to your model and will save you from having to reselect inputs/outputs if you make large changes to your model in the future
 
@@ -56,7 +56,7 @@ We recommend the second option as it is repeatable in case you make future chang
 - Repeat the above steps for all your output categories. To save you time on categories that have the same labels, make sure to use the **Copy Prior Labels** option.
 - Once all your outputs have been defined, click on **Go to Inputs**
 
-### **Select Inputs**
+#### **Select Inputs**
 
 - Click on the input cell in your sheet and give your input a name
 - **Customize Input Range (if needed):** By default, Tactyc will calculate **5 steps** for each input between a lower bound (90% of the current value) and upper bound (110% of the current value in the model). Both the bounds and numbers of steps can be customized as per your requirements
@@ -70,11 +70,11 @@ The Tactyc configuration tab is a worksheet that you can include in your model t
 
 See a sample configuration tab here: 
 
-[S&P500ValueNov1_TACTYC_v3.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3101e450-4f08-4660-9002-c74ff6c4f53f/SP500ValueNov1_TACTYC_v3.xlsx)
+[S&P500ValueNov1_TACTYC_v3.xlsx](https://du0bb4gb9kg21.cloudfront.net/documentation/tactyc-from-excel/S%26P500ValueNov1_TACTYC_v3.xlsx)
 
 - **Step 1:** Download the Tactyc configuration tab ****and make sure to include it in your model (you can copy this tab into your Excel file). It may be easier to start off with the sample above so you can see how the *TACTYC* config tab was populated for that model as an example.
 
-    [Tactyc Config Tab v5.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/305d6629-db17-4f68-a1d7-b0610ed4d97d/Tactyc_Config_Tab_v5.xlsx)
+    [Tactyc Config Tab v5.xlsx](https://du0bb4gb9kg21.cloudfront.net/documentation/tactyc-from-excel/Tactyc+Config+Tab+v5.xlsx)
 
 - **Step 2:**  Fill the information in the tab for inputs and outputs. You'll be defining names for each and linking to cells in your model. Instructions for filling this form are included in the file [(see an example of a filled out Tactyc Configuration Tab here)](https://tactyc-assets.s3-us-west-1.amazonaws.com/AppleAug20_config.xlsx)
 

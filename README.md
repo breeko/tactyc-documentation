@@ -1,33 +1,17 @@
-# Website
+# Tactyc
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+No-code platform to turn spreadsheets into web apps
 
-## Installation
+### Links
+[Tactyc App](https://tactyc.io)
 
-```console
-yarn install
-```
+[Documentation](https://tactycHQ.github.io)
 
-## Local Development
+[About](https://tactyc.io.about)
 
-```console
-yarn start
-```
+###Contact
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+[Anubhav (Tactyc Founder and CEO)](mailto:anubhav@tactyc.io)
 
-## Build
+[Branko (Tactyc CTO and head engineer)](mailto:branko@tactyc.io)
 
-```console
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
