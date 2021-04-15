@@ -20,7 +20,7 @@ Each output is assigned a **category** (for e.g. Revenue or EBITDA), and if a ca
 
 **Outputs are shown in  charts in the center of the Live Dashboard**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e2464f9-6fde-4db2-9c77-9c65a6c90822/Screen_Shot_2021-02-09_at_5.05.54_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e2464f9-6fde-4db2-9c77-9c65a6c90822/Screen_Shot_2021-02-09_at_5.05.54_PM.png)
+![Live dashboard](https://du0bb4gb9kg21.cloudfront.net/documentation/tactyc-from-excel/outputs.png)
 
 ### What is an Input?
 
@@ -34,7 +34,7 @@ Inputs are shown in a slider panel on the right of the Live Dashboard
 - In the dialog that pops up, give your dashboard a name
 - Click on **Upload Excel Model** and navigate to the file directory on your computer to select the Excel file.  Click **OK** once the file is selected.
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3958d8d5-cf20-47ee-b864-d95c8dc2e78b/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3958d8d5-cf20-47ee-b864-d95c8dc2e78b/Untitled.png)
+    ![Upload](https://du0bb4gb9kg21.cloudfront.net/documentation/tactyc-from-excel/upload.png)
 
     - Ensure your Excel file meets Tactyc's specifications (click to expand)
 - Tactyc will now start processing your file and open your file in your browser
@@ -78,11 +78,11 @@ See a sample configuration tab here:
 
 - **Step 2:**  Fill the information in the tab for inputs and outputs. You'll be defining names for each and linking to cells in your model. Instructions for filling this form are included in the file [(see an example of a filled out Tactyc Configuration Tab here)](https://tactyc-assets.s3-us-west-1.amazonaws.com/AppleAug20_config.xlsx)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/35fea4d4-e75b-447f-8364-9e197766b6bc/configtab.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/35fea4d4-e75b-447f-8364-9e197766b6bc/configtab.png)
+![Config Tab](https://du0bb4gb9kg21.cloudfront.net/documentation/tactyc-from-excel/config-tab.png)
 
 - **Step 3:**  You're set! Upload your model and make sure you click the **This model has a Tactyc configuration tab** option while uploading
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71f111ae-4ed2-411d-b703-1301c02be2c9/Tactyc_10-7-2020_5-23-51_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71f111ae-4ed2-411d-b703-1301c02be2c9/Tactyc_10-7-2020_5-23-51_PM.png)
+![Config Tab Checkbox](https://du0bb4gb9kg21.cloudfront.net/documentation/tactyc-from-excel/config-tab-checkbox.png)
 
 - Once uploaded, Tactyc will start analyzing the model. You will be automatically taken to your home screen while the model is being computed. Depending on the number of inputs, number of steps, your model's logic etc. this process could take up to a few minutes
 

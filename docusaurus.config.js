@@ -11,10 +11,10 @@ module.exports = {
   projectName: 'tactycHQ.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: '',
+      title: 'Tactyc',
       logo: {
         alt: 'Tactyc Logo',
-        src: 'img/tactyc_logo.svg',
+        src: 'img/tactyc_icon.png',
       },
       items: [
         {
