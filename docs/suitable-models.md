@@ -14,18 +14,18 @@ title: Suitable models
 - **Simple formulas**: The simpler the formula, the easier it is to debug and understand the logic.
 - **Built with the end in mind**: For inputs to be changed i.e. the model builder has thought about some intuitive boundary and edge cases already and has built that logic in their model. (i.e. *Market Capitalization* for a company cannot be negative so a formula computing market cap in an analysis should accommodate for this floor)
 
-## **From a technical standpoint, the model needs to have the following specifications:**
-
+## **Technical Limitations**
+**From a technical standpoint, the model needs to have the following specifications**
 - File must be in *.xlsx or *.xlsm format (i.e Excel 2007 or above)
 - File size must be less than 5MB (we are looking to increase this limit in the future)
 
-## Limitations
+## Other Limitations
 
 - **Large Worksheets** Excel worksheets that are extremely large i.e. spanning more than 2000 rows or columns are difficult to render on the browser and may slow down performance. We recommend creating a separate control panel tab for assumptions (inputs) and a separate tab for key outputs that can be easily referenced during the input/output selection process in Tactyc
 - **TODAY and NOW:** Formulas with TODAY() or NOW() are treated as hard-codes with their values set **at the time of model upload**. If a model needs to be updated for the latest date, users need to re-upload an updated version of the model
 - **External Links:** Formulas with external links will be treated as hardcodes. If your model has cells that combine external links *with a computation* such as "=100*'[OTHERFILE.xlsx]Sheet1!A1', please separate the external links into an entirely new row and run the computation in a new row or cell (i.e. the 100x part in this example). This will make sure the external linked cells are correctly treated as hardcodes.
 
-## **Excel Features not (Yet) Supported**
+## **Excel Features Not Yet Supported**
 
 - Password-protected models
 - Spill over array formulas (Tactyc assumes implicit intersection by default). An exception to this is the TRANSPOSE formula that is fully supported.

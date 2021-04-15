@@ -8,34 +8,31 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Your Excel models on a web app',
+    imageUrl: 'img/excel.svg',
     description: (
       <>
-        Tactyc allows you to turn any Excel model into an <strong>interactive web app</strong>. Tactyc lets you create
-        and design webapps without any code.
+        Tactyc allows you to turn any Excel model into an <strong>interactive web app</strong> or through an <strong>API</strong>
       </>
     ),
   },
   {
-    title: 'Analyze',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Build in analysis',
+    imageUrl: 'img/analysis.svg',
     description: (
       <>
         Tactyc provides one click analysis of your Excel model, from&nbsp;
-        <strong>monte-carlo</strong> to <strong>input analysis</strong>. It even
-        has a <strong>non-linear solver</strong> that can solve for practically any formula input.
+        <strong>monte-carlo</strong> to <strong>input analysis</strong> to <strong>non-linear solver</strong>
       </>
     ),
   },
   {
-    title: 'Powered by the most advanced Excel engine on the market',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Tactyc Spreasheet Engine',
+    imageUrl: 'img/calculation.svg',
     description: (
       <>
         Tactyc supports over <strong>300+ Excel functions</strong> supported including <strong>circularity</strong>.
-        New functions are being added every day. Interact with your Excel models through&nbsp;
-        <a href='https://tactyc.io'>tactyc.io</a> or the API.
+        New functions are being added every day
       </>
     ),
   },
@@ -76,6 +73,15 @@ export default function Home() {
               )}
               to={useBaseUrl('docs/')}>
               Get Started
+            </Link>
+            &nbsp;&nbsp;
+            <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to='https://tactyc.io'>
+              Go to Tactyc
             </Link>
           </div>
         </div>

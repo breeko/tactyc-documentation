@@ -12,7 +12,7 @@ Open the Excel file in Excel 2007 or higher, and then save it again as *.xlsx. T
 
 **My Excel model is large than 5MB. How can I have Tactyc process it?**
 
-Take a look at if your worksheets have large unused ranges (empty rows or empty columns beyond the last data cell). These can frequently bloat up a spreadsheet. [Here's how to fix this](https://www.notion.so/What-models-are-suitable-for-Tactyc-8927b0a2edf349fabd83b3247c8ea6c8#d59173f42d70470ca4ae243ccac1df8b)
+Take a look at if your worksheets have large unused ranges (empty rows or empty columns beyond the last data cell). These can frequently bloat up a spreadsheet. [Here's how to fix this](suitable-models)
 
 **My model was not calculated successfully and had errors. What does this mean?**
 
@@ -27,7 +27,7 @@ Errors during calculation means the Excel file has features or errors in it that
 This error can occur if
 
 - Your Excel file is password protected. To fix this, remove the password protection from the file
-- The worksheet / tab has excess unused or empty cells with formatting. [Here's how to fix this](https://www.notion.so/What-models-are-suitable-for-Tactyc-8927b0a2edf349fabd83b3247c8ea6c8#d59173f42d70470ca4ae243ccac1df8b)
+- The worksheet / tab has excess unused or empty cells with formatting. [Here's how to fix this](suitable-models#technical-limitations)
 
 **My model was calculated successfully but with Warnings. What does this mean?**
 
