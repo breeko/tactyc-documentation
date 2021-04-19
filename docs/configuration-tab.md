@@ -1,5 +1,6 @@
 ---
 title: Configuration tab
+custom_edit_url: null
 ---
 **Download sample configuration tab here:** 
 

@@ -1,5 +1,6 @@
 ---
 title: Supported functions
+custom_edit_url: null
 ---
 
 **The following functions and formulas are supported out-of-the-box with Tactyc.**

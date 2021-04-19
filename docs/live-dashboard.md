@@ -1,5 +1,6 @@
 ---
 title: Live Dashboard
+custom_edit_url: null
 ---
 
 **The live dashboard is at the heart of Tactyc. It allows control of the underlying model in a simple and intuitive manner with sliders - while giving you access to more high-powered tools that are working under the hood**

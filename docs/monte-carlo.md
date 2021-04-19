@@ -1,5 +1,6 @@
 ---
 title: Monte Carlo Analysis
+custom_edit_url: null
 ---
 
 A Monte Carlo analysis allows you to answer questions such as **"What is the probability that I will  achieve my revenue target of $50 million?"**. 

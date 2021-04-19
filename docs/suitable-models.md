@@ -1,5 +1,6 @@
 ---
 title: Suitable models
+custom_edit_url: null
 ---
 
 **While Tactyc can work with most Excel models - there are a few guidelines we recommend so your models are optimized for Tactyc and to avoid known issues and errors.**

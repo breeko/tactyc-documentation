@@ -1,6 +1,7 @@
 ---
 title: Tactyc User Documentation
 slug: /
+custom_edit_url: null
 ---
 
 Tactyc is a platform that lets you to turn your Excel models to interactive web apps.

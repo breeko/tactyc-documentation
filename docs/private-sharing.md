@@ -1,5 +1,6 @@
 ---
 title: Private Sharing
+custom_edit_url: null
 ---
 
 **Tactycs are meant to be shared with your team members. Private sharing allows your Tactyc and underlying model to be shared in a secured manner with your intended recipients**

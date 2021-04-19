@@ -1,5 +1,6 @@
 ---
 title: Input Contribution
+custom_edit_url: null
 ---
 
 **The input contribution page summarizes which inputs matter the most for your outputs.**

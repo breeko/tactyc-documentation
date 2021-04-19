@@ -1,5 +1,6 @@
 ---
 title: Creating a Tactyc from Excel
+custom_edit_url: null
 ---
 
 **Note: Please make sure you are using Chrome or Safari on a desktop or laptop browser when using Tactyc.** 

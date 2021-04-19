@@ -1,5 +1,6 @@
 ---
 title: Sensitivity analysis
+custom_edit_url: null
 ---
 
 **The sensitivity analysis feature enables you to see how your outputs vary as two inputs are flexed. For the purpose of this help page, we will refer to the two inputs as Input 1 and Input 2**
