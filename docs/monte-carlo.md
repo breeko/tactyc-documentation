@@ -44,3 +44,11 @@ Users can customize this Monte Carlo simulation to run their own simulations by 
 - Tactyc then iterations, probability distribution types and associated paramters for each input
 - Click **Run** to begin the simulation
 - Once Tactyc has finished computing, it will automatically load the results in the output charts
+
+## Adding Monte-Carlo to your Live Dashboard
+
+You can also add your monte-carlo distribution on a [live dashboard](live-dashboard) by clicking the **...** on
+your live dashboard and selecting the output for which you want to include.
+
+![Live Monte-Carlo](https://du0bb4gb9kg21.cloudfront.net/documentation/monte-carlo/inline-mc.png)
+

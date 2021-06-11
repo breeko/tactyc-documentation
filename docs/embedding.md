@@ -3,7 +3,7 @@ title: Embedding a Tactyc on a blog or website
 custom_edit_url: null
 ---
 
-**Publishing allows you to share your Tactycs and analysis with anyone on the web. Its an exciting way for users to share their models with the world!**
+**Publishing allows you to share your Tactycs and analysis with anyone on the web. It's an exciting way for users to share their models with the world!**
 
 ## **Embedding a single chart with input sliders**
 

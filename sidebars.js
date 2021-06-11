@@ -12,8 +12,10 @@ module.exports = {
       type: 'category',
       label: 'Creating a Tactyc',
       items: [
+        'templates',
         'tactyc-from-excel',
         'configuration-tab',
+        'data',
         'suitable-models',
         'supported-functions',
       ],
@@ -24,7 +26,7 @@ module.exports = {
       items: [
         'live-dashboard',
         'sensitivity-analysis',
-        'input-contribution',
+        // 'input-contribution',
         'monte-carlo',
       ],
     },
