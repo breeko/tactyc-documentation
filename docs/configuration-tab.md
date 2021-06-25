@@ -11,7 +11,7 @@ The Tactyc configuration tab is a worksheet that you can include in your model t
 ## Step 1
 ** Download the Tactyc configuration tab ****and make sure to include it in your model (you can copy this tab into your Excel file). It may be easier to start off with the sample above so you can see how the *TACTYC* config tab was populated for that model as an example.
 
-    [Tactyc Config Tab v5.xlsx](https://du0bb4gb9kg21.cloudfront.net/documentation/configuration-tab/Tactyc+Config+Tab+v5.xlsx)
+[Tactyc Config Tab v5.xlsx](https://du0bb4gb9kg21.cloudfront.net/documentation/configuration-tab/Tactyc+Config+Tab+v5.xlsx)
 
 ## Step 2
 
