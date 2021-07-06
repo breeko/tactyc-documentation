@@ -27,7 +27,7 @@ Each output is assigned a **category** (for e.g. Revenue or EBITDA), and if a ca
 
 Inputs are typically ***hard-codes that are assumptions*** underlying a model. Tactyc will sensitize the input cell over a range to compute the entire solution space of outputs
 
-Inputs are shown in a slider panel on the right of the Live Dashboard
+Inputs are shown in a slider panel on the right of the Live Dashboard. Inputs can be grouped by specifying the **Group** when creating an input 
 
 # Step 1:  **Upload the Excel file**
 
@@ -52,7 +52,8 @@ We recommend the second option as it is repeatable in case you make future chang
 ### Option A: Select inputs / outputs in browser
 
 - Click on the sheet in the browser to select your output cells.
-- Give these selected outputs a **Category Name** and click **OK**
+- Give these selected outputs a **Name** and click **OK**
+    - If you want inputs to be grouped together, specify the Group. Inputs with the same group will be grouped together when presented to the user
 - If your output had multiple cells, you will now be asked to assign **Labels** for these cells. Labels can be either **typed directly** into the Text Field for each cell, or if your spreadsheet already has text cells that are suitable labels, you can just **click those text cells.** Click **OK** to continue
 - Repeat the above steps for all your output categories. To save you time on categories that have the same labels, make sure to use the **Copy Prior Labels** option.
 - Once all your outputs have been defined, click on **Go to Inputs**
