@@ -9,7 +9,7 @@ No-code platform to turn spreadsheets into web apps
 
 [About](https://tactyc.io.about)
 
-###Contact
+### Contact
 
 [Anubhav (Tactyc Founder and CEO)](mailto:anubhav@tactyc.io)
 
