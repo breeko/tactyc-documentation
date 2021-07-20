@@ -13,6 +13,7 @@ module.exports = {
       label: 'Creating a Tactyc',
       items: [
         'templates',
+        'cloning',
         'tactyc-from-excel',
         'configuration-tab',
         'data',
@@ -28,6 +29,7 @@ module.exports = {
         'sensitivity-analysis',
         // 'input-contribution',
         'monte-carlo',
+        'solver',
       ],
     },
     {
