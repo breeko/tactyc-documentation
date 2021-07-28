@@ -12,9 +12,15 @@ Can't find what you're looking for? Send our support team a note at [admin@tacty
 
 ## Creating a Tactyc
 
+[1-click templates](templates)
+
+[Cloning a Tactyc](cloning)
+
 [How to create a Tactyc dashboard from an Excel model?](tactyc-from-excel)
 
 [Configuration Tab](configuration-tab)
+
+[Data Import](configuration-tab)
 
 [What models are suitable for Tactyc?](suitable-models)
 
@@ -26,9 +32,9 @@ Can't find what you're looking for? Send our support team a note at [admin@tacty
 
 [Sensitivity Analysis](sensitivity-analysis)
 
-[Input Contribution](input-contribution)
-
 [Monte Carlo Analysis](monte-carlo)
+
+[Solver](solver)
 
 ## Tactyc Spreadsheet Engine and API
 

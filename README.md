@@ -15,3 +15,6 @@ No-code platform to turn spreadsheets into web apps
 
 [Branko (Tactyc CTO and head engineer)](mailto:branko@tactyc.io)
 
+### To deploy
+
+`GIT_USER=[user] USE_SSH=true yarn deploy`
